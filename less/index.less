@@ -53,7 +53,85 @@ table {
     box-sizing: border-box;
 }
 
-html, body {
-    height: 100%;
+@tablecolor: rgb(224, 57, 57);
+@default: black;
+@title:  rgb(8, 15, 119);
+
+@margin (){
+	margin-top: 20px;
+	margin-bottom: 20x;
 }
 
+html, body {
+	height: 100%;
+	margin: 32px;
+	font-size: 62.5%;
+	
+}
+section {
+	display: flex;
+	flex-direction: column;
+	h1 {
+	font-size: 2.6rem;
+	color: @title;
+}
+h2 {
+	color: darkcyan;
+}
+
+img {
+	width: 47%;
+	height: auto;
+	border-radius: 10px;
+}
+
+nav {
+	display: flex;
+	justify-content: space-around;
+	font-size: 2rem;
+	a {
+		text-decoration: none;
+	}
+}
+
+.top-content {
+	font-size: 1.6rem;
+	display: flex;
+	margin-bottom: 20x;
+
+	.content {
+		width:100%;
+		align-content: flex-start
+	}
+}
+
+.middle-content {
+	display: flex;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-size: 1.6rem;
+
+	address {
+		font-style: italic;
+	}
+
+}
+
+.bottom-content {
+	background:rgba(26, 37, 197, 0.315);
+	display: flex;
+	font-size: 1.9rem;
+	margin-top: 20px;
+
+	.ref-container {
+		.margin:
+		width: 100%;
+	}
+	.copyright {
+		position: relative;
+		left: -301px;
+	}
+	address {
+		font-style: italic;
+		.margin;
+	}}
